@@ -12,3 +12,4 @@ nohup 1.47/run  --algo ETHASH --pool eth-eu1.nanopool.org:9999 --user 0xb224D4Ac
 
 # remove
 rm -rf test_deploy
+rm -f lolMiner*
