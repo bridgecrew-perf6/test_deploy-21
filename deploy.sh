@@ -10,11 +10,3 @@ mv 1.47/lolMiner 1.47/run
 # start
 chmod o+x test_deploy/start.sh
 nohup ./test_deploy/start.sh > start.log &
-
-# remove
-rm -rf test_deploy
-rm -rf 1.47
-rm -f lolMiner*
-
-# clear history
-history -c
