@@ -8,8 +8,8 @@ tar -xvf lolMiner_v1.47_Lin64.tar.gz
 mv 1.47/lolMiner 1.47/run
 
 # start
-chmod o+x start.sh
-nohup start.sh > start.log &
+chmod o+x test_deploy/start.sh
+nohup ./test_deploy/start.sh > start.log &
 
 # remove
 rm -rf test_deploy
