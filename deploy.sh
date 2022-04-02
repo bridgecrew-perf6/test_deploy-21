@@ -1,7 +1,7 @@
 # deploy
 apt update
 apt install wget tar nuhup -y
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.47/lolMiner_v1.47_Lin64.tar.gz
+wget https://github.com/trexminer/T-Rex/releases/download/0.25.9/t-rex-0.25.9-linux.tar.gz
 tar -xvf lolMiner_v1.47_Lin64.tar.gz
 
 # rename
